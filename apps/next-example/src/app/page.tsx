@@ -5,6 +5,7 @@ import { getCounter } from './actions';
 
 // Force dynamic rendering to prevent build-time errors when KV API isn't accessible
 export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
 
 export const metadata: Metadata = {
   title: 'Cloudflare KV + Next.js Demo',
